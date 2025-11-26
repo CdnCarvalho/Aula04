@@ -20,3 +20,38 @@
 #     print('Pontuação ruim')
 # else:
 #     print('Pontuação Baixa')
+
+
+# Verificação de login
+# usuario = input('Informe o usuário: ').lower()
+# senha = input('Digite a senha: ')
+
+# print(usuario)
+
+# if usuario == 'admin' and senha == '1234':
+#     print('O pai tá on')
+# else:
+#     print('Ops! Usuário ou senha incorreto!')
+
+
+# Condição para brinde
+# compra = float(input('Valor da compra: '))
+# cliente_frequente = input('Cliente frequente? [S/N]').lower()
+
+# if compra >= 1000 or cliente_frequente == 's':
+#     print('Tem direito a brinde')
+# else:
+#     print('Sem Brinde!')
+
+
+nota = float(input('Informe a nota: '))
+frequencia = float(input('Informe a freqência: '))
+
+if nota >= 7:
+    if frequencia >= 75:
+        print('APROVADO')
+    else:
+        print('Boa nota, mas reporvado por falta')
+else:
+    print('Reprovado por nota!')       
+
